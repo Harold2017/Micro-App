@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/view",
+    "pages/logs/logs",
+    "pages/calc/calc",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#da7c0c",
+    "navigationBarTitleText": "Simple Calculator",
+    "navigationBarTextStyle": "white"
+  }
+}

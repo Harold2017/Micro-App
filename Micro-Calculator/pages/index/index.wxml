@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+  <block>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <!--text class="user-motto">{{motto}}</text-->
+    <button type="default" size="{{defaultSize}}" hover-class='button-hover' bindtap="toCalc"> {{motto}}
+    </button>
+  </view>
+  <view>
+  <navigator url="view" class="github" hover-class='navigator-hover'>
+  <icon type="{{iconType}}" class='icon' size='20'>GitHub</icon>
+  </navigator>
+  </view>
+</view>
