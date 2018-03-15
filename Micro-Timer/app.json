@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/timer/timer"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3197ed",
+    "navigationBarTitleText": "Simple Timer",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Main",
+      "iconPath": "img/wechat.png",
+      "selectedIconPath": "img/wechatHL.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "Log",
+      "iconPath": "img/wechat.png",
+      "selectedIconPath": "img/wechatHL.png"
+    }, {
+      "pagePath": "pages/timer/timer",
+      "text": "Setting",
+      "iconPath": "img/wechat.png",
+      "selectedIconPath": "img/wechatHL.png"
+    }]
+  }
+}
